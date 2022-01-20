@@ -1,1 +1,380 @@
-[{"quadrant": 0, "ring": 0, "label": "Java 17", "active": true, "moved": 1}, {"quadrant": 3, "ring": 0, "label": "CNCF", "active": true, "moved": 1}, {"quadrant": 3, "ring": 0, "label": "gRPC", "active": true, "moved": 1}, {"quadrant": 3, "ring": 0, "label": "resilience4j", "active": true, "moved": 1}, {"quadrant": 3, "ring": 0, "label": "Consul", "active": true, "moved": 1}, {"quadrant": 3, "ring": 0, "label": "ELK", "active": true, "moved": 1}, {"quadrant": 3, "ring": 0, "label": "Prometues", "active": true, "moved": 1}, {"quadrant": 3, "ring": 0, "label": "Grafana", "active": true, "moved": 1}, {"quadrant": 3, "ring": 0, "label": "VisualVM", "active": false, "moved": 1}, {"quadrant": 3, "ring": 0, "label": "JMH", "active": false, "moved": 1}, {"quadrant": 3, "ring": 0, "label": "Mongo", "active": false, "moved": 1}, {"quadrant": 3, "ring": 0, "label": "Rediss", "active": true, "moved": 1}, {"quadrant": 3, "ring": 0, "label": "SQL", "active": false, "moved": 1}, {"quadrant": 3, "ring": 0, "label": "Kubernetes", "active": false, "moved": 1}, {"quadrant": 1, "ring": 0, "label": "Messaging", "active": false, "moved": 1}, {"quadrant": 1, "ring": 0, "label": "AWS", "active": false, "moved": 1}, {"quadrant": 1, "ring": 0, "label": "GCP", "active": true, "moved": 1}, {"quadrant": 0, "ring": 0, "label": "Angular", "active": false, "moved": 1}, {"quadrant": 0, "ring": 0, "label": "React", "active": true, "moved": 1}, {"quadrant": 1, "ring": 0, "label": "Azure", "active": false, "moved": 1}, {"quadrant": 1, "ring": 0, "label": "PCF", "active": false, "moved": 0}, {"quadrant": 2, "ring": 0, "label": "Agile Thinking", "active": false, "moved": 1}, {"quadrant": 2, "ring": 0, "label": "EngX", "active": false, "moved": 1}, {"quadrant": 0, "ring": 1, "label": "Kotlin", "active": true, "moved": 0}, {"quadrant": 0, "ring": 1, "label": "GoLang", "active": false, "moved": 0}, {"quadrant": 3, "ring": 1, "label": "Quarkus", "active": true, "moved": 0}, {"quadrant": 3, "ring": 1, "label": "Cassandra", "active": true, "moved": 0}, {"quadrant": 3, "ring": 1, "label": "Hazelcast", "active": false, "moved": 0}, {"quadrant": 3, "ring": 1, "label": "Spring Webflux", "active": true, "moved": 0}, {"quadrant": 3, "ring": 1, "label": "Spring Cloud Stream", "active": true, "moved": 0}, {"quadrant": 3, "ring": 1, "label": "Devops - Terraform", "active": true, "moved": 0}, {"quadrant": 1, "ring": 1, "label": "Openshift", "active": true, "moved": 0}, {"quadrant": 2, "ring": 1, "label": "Design Thinking", "active": false, "moved": 0}, {"quadrant": 2, "ring": 1, "label": "Tech Design", "active": false, "moved": 1}, {"quadrant": 3, "ring": 1, "label": "ServiceMesh", "active": true, "moved": 0}, {"quadrant": 0, "ring": 2, "label": "Python", "active": false, "moved": 0}, {"quadrant": 3, "ring": 2, "label": "Splunk", "active": true, "moved": 0}, {"quadrant": 3, "ring": 2, "label": "GraphQL", "active": true, "moved": 0}, {"quadrant": 3, "ring": 2, "label": "AeroSpike", "active": true, "moved": 0}, {"quadrant": 3, "ring": 2, "label": "Akka", "active": true, "moved": 0}, {"quadrant": 3, "ring": 2, "label": "AI", "active": true, "moved": 0}, {"quadrant": 3, "ring": 2, "label": "ML", "active": false, "moved": 0}, {"quadrant": 3, "ring": 2, "label": "Spark", "active": false, "moved": 0}, {"quadrant": 1, "ring": 2, "label": "Graal VM", "active": true, "moved": 0}, {"quadrant": 0, "ring": 3, "label": "Scala", "active": false, "moved": -1}, {"quadrant": 3, "ring": 3, "label": "AppDynamics", "active": true, "moved": -1}, {"quadrant": 3, "ring": 3, "label": "Dynatrace", "active": true, "moved": -1}, {"quadrant": 3, "ring": 3, "label": "Datadog", "active": true, "moved": -1}, {"quadrant": 3, "ring": 3, "label": "New Relic", "active": false, "moved": -1}, {"quadrant": 3, "ring": 3, "label": "Kong Gateway", "active": true, "moved": -1}, {"quadrant": 3, "ring": 3, "label": "NLP", "active": false, "moved": -1}, {"quadrant": 3, "ring": 3, "label": "Hadoop", "active": false, "moved": -1}, {"quadrant": 3, "ring": 3, "label": "Blockchain", "active": true, "moved": -1}, {"quadrant": 0, "ring": 0, "label": "OpenAPI", "active": false, "moved": 1}]
+[
+    {
+        "quadrant": 0,
+        "ring": 0,
+        "label": "Java 17",
+        "active": true,
+        "moved": 1
+    },
+    {
+        "quadrant": 3,
+        "ring": 0,
+        "label": "CNCF",
+        "active": true,
+        "moved": 1
+    },
+    {
+        "quadrant": 3,
+        "ring": 0,
+        "label": "gRPC",
+        "active": true,
+        "moved": 1
+    },
+    {
+        "quadrant": 3,
+        "ring": 0,
+        "label": "resilience4j",
+        "active": true,
+        "moved": 1
+    },
+    {
+        "quadrant": 3,
+        "ring": 0,
+        "label": "Consul",
+        "active": true,
+        "moved": 1
+    },
+    {
+        "quadrant": 3,
+        "ring": 0,
+        "label": "ELK",
+        "active": true,
+        "moved": 1
+    },
+    {
+        "quadrant": 3,
+        "ring": 0,
+        "label": "Prometues",
+        "active": true,
+        "moved": 1
+    },
+    {
+        "quadrant": 3,
+        "ring": 0,
+        "label": "Grafana",
+        "active": true,
+        "moved": 1
+    },
+    {
+        "quadrant": 3,
+        "ring": 0,
+        "label": "VisualVM",
+        "active": false,
+        "moved": 1
+    },
+    {
+        "quadrant": 3,
+        "ring": 0,
+        "label": "JMH",
+        "active": false,
+        "moved": 1
+    },
+    {
+        "quadrant": 3,
+        "ring": 0,
+        "label": "Mongo",
+        "active": false,
+        "moved": 1
+    },
+    {
+        "quadrant": 3,
+        "ring": 0,
+        "label": "Rediss",
+        "active": true,
+        "moved": 1
+    },
+    {
+        "quadrant": 3,
+        "ring": 0,
+        "label": "SQL",
+        "active": false,
+        "moved": 1
+    },
+    {
+        "quadrant": 3,
+        "ring": 0,
+        "label": "Kubernetes",
+        "active": false,
+        "moved": 1
+    },
+    {
+        "quadrant": 1,
+        "ring": 0,
+        "label": "Messaging",
+        "active": false,
+        "moved": 1
+    },
+    {
+        "quadrant": 1,
+        "ring": 0,
+        "label": "AWS",
+        "active": false,
+        "moved": 1
+    },
+    {
+        "quadrant": 1,
+        "ring": 0,
+        "label": "GCP",
+        "active": true,
+        "moved": 1
+    },
+    {
+        "quadrant": 0,
+        "ring": 0,
+        "label": "Angular",
+        "active": false,
+        "moved": 1
+    },
+    {
+        "quadrant": 0,
+        "ring": 0,
+        "label": "React",
+        "active": true,
+        "moved": 1
+    },
+    {
+        "quadrant": 1,
+        "ring": 0,
+        "label": "Azure",
+        "active": false,
+        "moved": 1
+    },
+    {
+        "quadrant": 1,
+        "ring": 0,
+        "label": "PCF",
+        "active": false,
+        "moved": 0
+    },
+    {
+        "quadrant": 2,
+        "ring": 0,
+        "label": "Agile Thinking",
+        "active": false,
+        "moved": 1
+    },
+    {
+        "quadrant": 2,
+        "ring": 0,
+        "label": "EngX",
+        "active": false,
+        "moved": 1
+    },
+    {
+        "quadrant": 0,
+        "ring": 1,
+        "label": "Kotlin",
+        "active": true,
+        "moved": 0
+    },
+    {
+        "quadrant": 0,
+        "ring": 1,
+        "label": "GoLang",
+        "active": false,
+        "moved": 0
+    },
+    {
+        "quadrant": 3,
+        "ring": 1,
+        "label": "Quarkus",
+        "active": true,
+        "moved": 0
+    },
+    {
+        "quadrant": 3,
+        "ring": 1,
+        "label": "Cassandra",
+        "active": true,
+        "moved": 0
+    },
+    {
+        "quadrant": 3,
+        "ring": 1,
+        "label": "Hazelcast",
+        "active": false,
+        "moved": 0
+    },
+    {
+        "quadrant": 3,
+        "ring": 1,
+        "label": "Spring Webflux",
+        "active": true,
+        "moved": 0
+    },
+    {
+        "quadrant": 3,
+        "ring": 1,
+        "label": "Spring Cloud Stream",
+        "active": true,
+        "moved": 0
+    },
+    {
+        "quadrant": 3,
+        "ring": 1,
+        "label": "Devops - Terraform",
+        "active": true,
+        "moved": 0
+    },
+    {
+        "quadrant": 1,
+        "ring": 1,
+        "label": "Openshift",
+        "active": true,
+        "moved": 0
+    },
+    {
+        "quadrant": 2,
+        "ring": 1,
+        "label": "Design Thinking",
+        "active": false,
+        "moved": 0
+    },
+    {
+        "quadrant": 2,
+        "ring": 1,
+        "label": "Tech Design",
+        "active": false,
+        "moved": 1
+    },
+    {
+        "quadrant": 3,
+        "ring": 1,
+        "label": "ServiceMesh",
+        "active": true,
+        "moved": 0
+    },
+    {
+        "quadrant": 0,
+        "ring": 2,
+        "label": "Python",
+        "active": false,
+        "moved": 0
+    },
+    {
+        "quadrant": 3,
+        "ring": 2,
+        "label": "Splunk",
+        "active": true,
+        "moved": 0
+    },
+    {
+        "quadrant": 3,
+        "ring": 2,
+        "label": "GraphQL",
+        "active": true,
+        "moved": 0
+    },
+    {
+        "quadrant": 3,
+        "ring": 2,
+        "label": "AeroSpike",
+        "active": true,
+        "moved": 0
+    },
+    {
+        "quadrant": 3,
+        "ring": 2,
+        "label": "Akka",
+        "active": true,
+        "moved": 0
+    },
+    {
+        "quadrant": 3,
+        "ring": 2,
+        "label": "AI",
+        "active": true,
+        "moved": 0
+    },
+    {
+        "quadrant": 3,
+        "ring": 2,
+        "label": "ML",
+        "active": false,
+        "moved": 0
+    },
+    {
+        "quadrant": 3,
+        "ring": 2,
+        "label": "Spark",
+        "active": false,
+        "moved": 0
+    },
+    {
+        "quadrant": 1,
+        "ring": 2,
+        "label": "Graal VM",
+        "active": true,
+        "moved": 0
+    },
+    {
+        "quadrant": 0,
+        "ring": 3,
+        "label": "Scala",
+        "active": false,
+        "moved": -1
+    },
+    {
+        "quadrant": 3,
+        "ring": 3,
+        "label": "AppDynamics",
+        "active": true,
+        "moved": -1
+    },
+    {
+        "quadrant": 3,
+        "ring": 3,
+        "label": "Dynatrace",
+        "active": true,
+        "moved": -1
+    },
+    {
+        "quadrant": 3,
+        "ring": 3,
+        "label": "Datadog",
+        "active": true,
+        "moved": -1
+    },
+    {
+        "quadrant": 3,
+        "ring": 3,
+        "label": "New Relic",
+        "active": false,
+        "moved": -1
+    },
+    {
+        "quadrant": 3,
+        "ring": 3,
+        "label": "Kong Gateway",
+        "active": true,
+        "moved": -1
+    },
+    {
+        "quadrant": 3,
+        "ring": 3,
+        "label": "NLP",
+        "active": false,
+        "moved": -1
+    },
+    {
+        "quadrant": 3,
+        "ring": 3,
+        "label": "Hadoop",
+        "active": false,
+        "moved": -1
+    },
+    {
+        "quadrant": 3,
+        "ring": 3,
+        "label": "Blockchain",
+        "active": true,
+        "moved": -1
+    },
+    {
+        "quadrant": 0,
+        "ring": 0,
+        "label": "OpenAPI",
+        "active": false,
+        "moved": 1
+    }
+]
